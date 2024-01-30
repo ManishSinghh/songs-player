@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #483d3c, #0a0a0a); /* Brown to Black gradient */
+}
+
+.music-player-container {
+    text-align: center;
+}
+
+.music-player-card {
+    background: #4d413f; /* A deep brownish color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+}
+
+.cover-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.song-details {
+    margin-top: 15px;
+    color: #fff;
+}
+
+.progress-bar-container {
+    margin: 15px 0;
+    height: 8px;
+    background: #2c2928; /* A darker brown */
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%; /* Initial width, you can update this dynamically with JS */
+    background: #e07a5f; /* Orangish color representing dusk */
+}
+
+.controls {
+    margin-top: 15px;
+}
+
+button {
+    background: #e07a5f; /* Orangish color */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: #be6450; /* A slightly darker shade on hover */
+}
+#visualizer {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 4px;
+    background: #2c2928; /* A darker brown */
+}
